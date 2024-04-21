@@ -10,12 +10,12 @@ int main(){
     {
     int n=2;
     cin>>n;
-    cout<<"W";
+    cout<<"s";
     for(int i=1; i<=n;i++)
     {
-        cout<<"o";
+        cout<<"a";
     }
-    cout<<"w!";
+    cout<<"m!"<<endl;
      cout<<"you want continue?(y/n)";
     cin>>question;
     }
