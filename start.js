@@ -39,17 +39,18 @@ function exitPass(){
 
 
 function login(){
+    validationPassword.style.display="none";
+    validationUser.style.display="none";
+    // validationUser.innerHTML="";
+    username.value="";
+    password.value=""
+    printer.style.display='block';
+    printer.style.color="yellow";
+    printer.style.width="200px"
     setTimeout(function(){
-        validationPassword.style.display="none";
-        validationUser.style.display="none";
-        // validationUser.innerHTML="";
-        username.value="";
-        password.value=""
-        printer.style.display='block';
-        printer.style.color="yellow";
-        printer.style.width="200px"
+       printer.style.display='none'
       
-    },1000)
+    },8000)
 
 }
   
