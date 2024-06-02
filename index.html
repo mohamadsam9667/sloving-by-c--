@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SabzLearn | Js | 111</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="type">
+        انتظار داری با کلیک روی این دکمه دنیا رو بترکونی یا اتفاق خاصی بیوفته کسخل
+                                      جقی  
+    </div>
+
+    <div class="login-page">
+        <div class="form">
+                <!-- <input type="text" placeholder="username" class="username" onkeypress="keyLog()" /> -->
+                <!-- <input type="text" placeholder="username" class="username" onkeydown="keyLog()" /> -->
+                <input type="text" placeholder="username" class="username"  onblur="exitUser()" value="sam sigma"/>
+                <span class="user-validation">Must contain 12 character (Min)  </span>
+                <input type="password" placeholder="password" class="password" onblur="exitPass()"  value=""/>
+                <span class="password-validation">Must contain 8 character (Min) </span>
+                <button onclick="login()" >login</button>
+                <p class="message">Not registered? <a>Create an account</a></p>
+        </div>
+    </div>
+  
+
+    <script src="./start.js">
+
+    </script>
+
+</body>
+
+</html>
